@@ -22,4 +22,4 @@ tracks:
     ros_distro: indigo
     vcs_type: git
     vcs_uri: https://github.com/artivis/laser_odometry.git
-    version: 0.0.1
+    version: :{auto}
