@@ -1,0 +1,13 @@
+Source: ros-indigo-laser-odometry-core
+Section: misc
+Priority: extra
+Maintainer: Jeremie Deray <jeremie.deray@pal-robotics.com>
+Build-Depends: debhelper (>= 9.0.0), python, ros-indigo-catkin, ros-indigo-pluginlib, ros-indigo-roscpp, ros-indigo-sensor-msgs, ros-indigo-tf
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-laser-odometry-core
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ${python:Depends}, ros-indigo-pluginlib, ros-indigo-roscpp, ros-indigo-sensor-msgs, ros-indigo-tf
+Description: Core library for the laser_odometry package.
+ It contains the base class from which laser scan matcher wrappers should inherit from.
