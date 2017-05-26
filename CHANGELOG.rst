@@ -2,6 +2,22 @@
 Changelog for package laser_odometry_core
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.1.0 (2017-05-26)
+------------------
+* add fillIncrementMsg
+* fix msg_ptr z oups
+* rename twist_cov -> inc_cov
+* rename correction\_ -> increment\_ & :lipstick:
+* fix macro
+* fix macro
+* Contributors: Jeremie Deray
+
+0.0.2 (2017-05-23)
+------------------
+* missing deps
+* typo & clearer var name
+* Contributors: Jeremie Deray
+
 0.0.1 (2017-05-23)
 ------------------
 * LICENSE pkg.xml
