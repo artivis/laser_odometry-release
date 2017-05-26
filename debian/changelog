@@ -1,0 +1,8 @@
+ros-indigo-laser-odometry-node (0.0.1-2trusty) trusty; urgency=high
+
+  * added metapkg, renamed laser_odometry to laser_odometry_node
+  * Contributors: Procópio Stein
+
+ -- Jeremie Deray <jeremie.deray@pal-robotics.com>  Mon, 22 May 2017 22:00:00 -0000
+
+
