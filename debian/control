@@ -1,0 +1,12 @@
+Source: ros-indigo-laser-odometry
+Section: misc
+Priority: extra
+Maintainer: Jeremie Deray <jeremie.deray@pal-robotics.com>
+Build-Depends: debhelper (>= 9.0.0), python, ros-indigo-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-laser-odometry
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ${python:Depends}, ros-indigo-laser-odometry-core, ros-indigo-laser-odometry-node
+Description: The Laser Odometry metapackage
